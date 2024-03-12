@@ -46,4 +46,5 @@ This script is intended for educational purposes and authorized penetration test
 
 ## Acknowledgments
 This script was inspired by the educational content provided by Hack The Box Academy, particularly the "Attacking Common Applications" module. Special thanks to the cybersecurity community for continuous learning and knowledge sharing.
-```
+
+![Hack The Planet](https://media.tenor.com/K8R7LThju04AAAAC/hack-the-planet.gif)
