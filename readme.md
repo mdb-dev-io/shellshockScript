@@ -32,7 +32,7 @@ The primary purpose of this script is educational. It serves as a hands-on tool 
 Run the script from your command line or terminal, specifying the headers file, the target URL, and optionally a proxy:
 
 ```bash
-python shellshock_exploit.py -w headers.txt -url http://<target-url> -p http://127.0.0.1:8080
+python shellshockExploit.py -w headers.txt -url http://<target-url> -p http://127.0.0.1:8080
 ```
 
 - `-w` or `--wordlist`: Path to the wordlist file containing header names.
